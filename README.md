@@ -1,2 +1,2 @@
 # Calculadora
-Calculadora em python
+Calculadora em python com operações aritméticas simples.
