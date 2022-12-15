@@ -53,8 +53,7 @@ def clean():
 # criando label
 valor_texto = StringVar()
 
-app_label = Label(frame_tela, textvariable=valor_texto, width=22, height=4,
-                  padx=7, relief=FLAT, anchor="e", justify=RIGHT, font=('Ivy 18'), bg=cor2)
+app_label = Label(frame_tela, textvariable=valor_texto, width=22, height=4, padx=7, relief=FLAT, anchor="e", justify=RIGHT, font=('Ivy 18'), bg=cor2)
 app_label.place(x=0, y=0)
 
 
@@ -86,32 +85,23 @@ b8.place(x=80, y=71)
 b9 = Button(frame_corpo, command=lambda: getvalor('9'), text="9", width=7,
             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b9.place(x=160, y=71)
-b10 = Button(frame_corpo, command=lambda: getvalor('4'), text="4", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b10 = Button(frame_corpo, command=lambda: getvalor('4'), text="4", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b10.place(x=0, y=142)
-b11 = Button(frame_corpo, command=lambda: getvalor('5'), text="5", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b11 = Button(frame_corpo, command=lambda: getvalor('5'), text="5", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b11.place(x=80, y=142)
-b12 = Button(frame_corpo, command=lambda: getvalor('6'), text="6", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b12 = Button(frame_corpo, command=lambda: getvalor('6'), text="6", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b12.place(x=160, y=142)
-b13 = Button(frame_corpo, command=lambda: getvalor('1'), text="1", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b13 = Button(frame_corpo, command=lambda: getvalor('1'), text="1", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b13.place(x=0, y=213)
-b14 = Button(frame_corpo, command=lambda: getvalor('2'), text="2", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b14 = Button(frame_corpo, command=lambda: getvalor('2'), text="2", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b14.place(x=80, y=213)
-b15 = Button(frame_corpo, command=lambda: getvalor('3'), text="3", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b15 = Button(frame_corpo, command=lambda: getvalor('3'), text="3", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b15.place(x=160, y=213)
-b16 = Button(frame_corpo, command=lambda: getvalor('0'), text="0", width=15,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b16 = Button(frame_corpo, command=lambda: getvalor('0'), text="0", width=15,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b16.place(x=0, y=284)
-b17 = Button(frame_corpo, command=lambda: getvalor('.'), text=".", width=7,
-             height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b17 = Button(frame_corpo, command=lambda: getvalor('.'), text=".", width=7,height=3, bg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b17.place(x=160, y=284)
-b18 = Button(frame_corpo, command=calcular, text="=", width=7, height=3,
-             bg=cor4, fg=cor3, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b18 = Button(frame_corpo, command=calcular, text="=", width=7, height=3, bg=cor4, fg=cor3, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b18.place(x=240, y=284)
 
 
